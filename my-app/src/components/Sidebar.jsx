@@ -21,10 +21,14 @@ const Sidebar = () => {
     setIsOpen(!isOpen);
   };
 
+  // https://www.shutterstock.com/shutterstock/photos/1040229760/display_1500/stock-photo-pink-bright-texture-for-designer-background-gentle-classic-texture-colorful-background-colorful-1040229760.jpg
+
   return (
     <div>
       <>
-        <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gradient-to-r from-cyan-500 to-blue-500 dark:border-gray-700">
+        {/* <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gradient-to-r from-cyan-500 to-blue-500 dark:border-gray-700"> */}
+        <nav className="fixed top-0 z-50 w-full  border-b  border-gray-200 dark:border-gray-700  bg-[url('https://img.freepik.com/free-vector/colorful-watercolor-rainbow-background_125540-151.jpg')] bg-cover">
+
           <div className="px-3 py-3 lg:px-5 lg:pl-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center justify-start rtl:justify-end">
@@ -97,6 +101,16 @@ const Sidebar = () => {
                 </Link>
               </li>
 
+              {/* <li>
+                <Link
+                  href="/pages/data2"
+                  className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-800 group"
+                >
+                  <span className="flex-1 ms-3 whitespace-nowrap">
+                  Section3
+                  </span>
+                </Link>
+              </li> */}
         
 
 
